@@ -1,190 +1,142 @@
 <!DOCTYPE html>
-<!-- Website - www.codingnepalweb.com -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Responsive Portfolio Website HTML CSS| CodingNepal</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Move to up button -->
-    <div class="scroll-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
-    </div>
-    <!-- navgaition menu -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pushpalatha Oggu | Portfolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="d-flex justify-content-between align-items-center px-4">
+    <h1>Pushpalatha Oggu</h1>
     <nav>
-      <div class="navbar">
-        <div class="logo"><a href="#">Portfolio.</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-        </ul>
-        <div class="media-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-      <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div>
+      <ul class="d-flex">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <div class="text">
-          <div class="text-one">Hello,</div>
-          <div class="text-two">I'm Pushpa Latha Oggu</div>
-          <div class="text-three">Front-end developer</div>
-          <div class="text-four">From India</div>
-        </div>
-        <div class="button">
-          <button>Hire Me</button>
-        </div>
-      </div>
-    </section>
+  <!-- About -->
+  <section id="about" class="container text-center">
+    <h2>About Me</h2>
+    <p>
+      Enthusiastic Computer Science and Engineering student with expertise in 
+      developing responsive and user-friendly websites using <b>HTML, CSS, JavaScript, Bootstrap, and Python</b>. 
+      Skilled in <b>UI/UX design with Figma</b> and <b>no-code development with Bubble.ai</b>. 
+      Quick learner with strong communication and problem-solving skills. Member of <b>NXTWAVE</b>.
+    </p>
+    <!-- Download Resume Button -->
+    <a href="Pushpa_resume.pdf" class="btn btn-primary mt-3" download>
+      <i class="fas fa-download"></i> Download Resume
+    </a>
+  </section>
 
-    <!-- About Section Start -->
-    <section class="about" id="about">
-      <div class="content">
-        <div class="title"><span>About Me</span></div>
-        <div class="about-details">
-          <div class="left">
-            <img src="IMG_20231028_154243~2.jpg" />
-          </div>
-          <div class="right">
-            <div class="topic">Designing Is My Passion</div>
-            <p>
-              i am Pushpa Latha from Nellore, currently pursuing the Btech 3rd year in the college of NBKRIST, i am the person who is passionate about developing the websites using bootstrap and looking forward to get internships. I completed my diploma degree in CME at government college of engineering with the percentage of 85% and my hobbies are writing articles in LinkedIn about the cyber security and having interest in the scope of cyber security...Hire me if you feel i am eligible for the respective roles </p>
-            <div class="button">
-              <button>Download CV</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- Skills -->
+  <section id="skills" class="bg-light">
+    <h2>Skills</h2>
+    <div class="container text-center">
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+        <li>Figma</li>
+        <li>Bubble.ai</li>
+        <li>Database Management</li>
+        <li>Computer Networks</li>
+        <li>MS Office</li>
+        <li>Communication</li>
+      </ul>
+    </div>
+  </section>
 
-    <!-- My Skill Section Start -->
-    <!-- Section Tag and Other Div will same where we need to put same CSS -->
-    <section class="skills" id="skills">
-      <div class="content">
-        <div class="title"><span>My Skills</span></div>
-        <div class="skills-details">
-          <div class="text">
-            <div class="topic">Skills Reflects Our Knowledge</div>
-            <p>i am very much intrestest in front-end and can build the static and dynamic web pages using html, css, bootstrap, javascript... and i am working on cyber security as well.. </p>
-            <div class="experience">
-              <div class="num">02</div>
-              <div class="exp">internships
-                <br />
-                
-              </div>
-            </div>
-          </div>
-          <div class="boxes">
-            <div class="box">
-              <div class="topic">HTML</div>
-              <div class="per">90%</div>
-            </div>
-            <div class="box">
-              <div class="topic">CSS</div>
-              <div class="per">80%</div>
-            </div>
-            <div class="box">
-              <div class="topic">JavScript</div>
-              <div class="per">50%</div>
-            </div>
-            <div class="box">
-              <div class="topic">PHP</div>
-              <div class="per">50%</div>
-            </div>
-          </div>
+  <!-- Projects -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card p-3 mb-4">
+          <h4>Online Ordering System</h4>
+          <p>Developed a website for online food ordering using HTML, CSS, and JavaScript.</p>
+          <a href="#" class="btn btn-primary">View Project</a>
         </div>
       </div>
-    </section>
-
-    <!-- My Services Section Start -->
-    <section class="services" id="services">
-      <div class="content">
-        <div class="title"><span>My Services</span></div>
-        <div class="boxes">
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div class="topic">Web Devlopment</div>
-            <p>Developed a responsive e-commerce site using semantic HTML5 elements, ensuring clear structure and accessibility. Featured interactive forms and an intuitive navigation system, enhancing user experience.</p>
-          </div>
-           <div class="box">
-            <div class="icon">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <div class="topic">Designing the posters</div>
-            <p>Designed a visually striking poster, focusing on bold typography, cohesive color schemes, and effective use of imagery to capture attention and convey the message.</p>
-          </div>
-           <div class="box">
-            <div class="icon">
-              <i class="fas fa-camera-retro"></i>
-            </div>
-            <div class="topic">Photography</div>
-            <p>Captured a series of images , focusing on composition, lighting, and creativity to evoke emotion and tell a compelling story.</p>
-          </div>
-            <div class="box">
-            <div class="icon">
-              <img src="https://www.google.com/imgres?q=cyber%20security%20icons&imgurl=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F6783%2F6783360.png&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fcyber-security_6783360&docid=D9Tes-gWrfCVgM&tbnid=sWeYETmOZat0UM&vet=12ahUKEwjz3aqm862IAxXZzTgGHVJtKrIQM3oECGcQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwjz3aqm862IAxXZzTgGHVJtKrIQM3oECGcQAA">
-            </div>
-            <div class="topic">cyber security</div>
-            <p>Implemented comprehensive cybersecurity solutions,focusing on threat detection, risk assessment, and incident response. Utilized advanced tools and methodologies to enhance system security and protect sensitive data.</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-camera-retro"></i>
-            </div>
-            <div class="topic">programming language</div>
-            <p>I prefer java programming laguage, i was intrested in learning other programming languages as well... </p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-tablet-alt"></i>
-            </div>
-            <div class="topic">Apps Devlopment</div>
-            <p> Developed a application, focusing on intuitive user interfaces, seamless functionality, and performance optimization.</p>
-          </div>
+      <div class="col-md-6">
+        <div class="card p-3 mb-4">
+          <h4>UI/UX Design Project</h4>
+          <p>Designed a responsive app prototype using Figma with focus on usability.</p>
+          <a href="#" class="btn btn-primary">View Project</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact Me section Start -->
-    <section class="contact" id="contact">
-      <div class="content">
-        <div class="title"><span>Contact Me</span></div>
-        <div class="text">
-          <div class="topic">Project i done</div>
-          <p>I created the food ordering system using html and css , bootstrap as front-end and javascript , php as the back-end...</p>
-          <div class="button">
-            <button>Let's Chat</button>
-          </div>
-        </div>
+  <!-- Experience -->
+  <section id="experience" class="bg-light">
+    <h2>Experience</h2>
+    <div class="container">
+      <div class="card p-3 mb-3">
+        <h4>Project Team Lead</h4>
+        <p>Guided team members, encouraged collaboration, and ensured project success through leadership and presentation skills.</p>
       </div>
-    </section>
-
-    <!-- Footer Section Start -->
-    <footer>
-      <div class="text">
-        <span>Created By <a href="#">Pushpa latha</a> | &#169; 2021 All Rights Reserved</span>
+      <div class="card p-3 mb-3">
+        <h4>Project Developer</h4>
+        <p>Completed web-based and UI/UX projects with dedication and focus on detail.</p>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+  <!-- Education -->
+  <section id="education" class="container">
+    <h2>Education</h2>
+    <ul>
+      <li><b>B.Tech (CSE)</b> – NBKR Institute of Science and Technology (2023–2026) | CGPA: 9.2</li>
+      <li><b>Diploma</b> – Academy of Technical Proficiency (2020–2023) | 84.64%</li>
+      <li><b>SSC</b> – Himalaya English Medium High School (2014–2020) | GPA: 10.0</li>
+    </ul>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="bg-light">
+    <h2>Certifications</h2>
+    <div class="container text-center">
+      <p>HTML, CSS | Power BI | MCP Project | UI/UX Project | Project Expo</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p class="text-center">
+      <i class="fas fa-envelope"></i> <a href="mailto:Pushpa.oogu2004@gmail.com">Pushpa.oogu2004@gmail.com</a><br>
+      <i class="fas fa-phone"></i> +91 8978506028<br>
+      <i class="fas fa-map-marker-alt"></i> Nellore, Andhra Pradesh<br>
+      <i class="fab fa-github"></i> <a href="https://github.com/your-username" target="_blank">github.com/your-username</a><br>
+      <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Pushpalatha Oggu | Portfolio</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
